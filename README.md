@@ -1,4 +1,4 @@
-# PLEASE COMMIT
+# Please Commit
 Script that returns number of days since last commit for each user in list of github users.
 
 ## CONTENTS
@@ -18,3 +18,12 @@ Create a GitHub Personal Access Token [here](https://github.com/settings/tokens)
 ## Local Setup
 1. Create a `.credentials` folder in your home directory
 2. Create a `GITHUB.txt` file inside that folder and add your token.
+3. Create `config.py` file in project root and add dict of students:
+
+```
+students = {
+    'Bob'       :   'bobsgithubusername',
+    'Jim'       :   'jimsgithubusername',
+    ...  
+}
+```
