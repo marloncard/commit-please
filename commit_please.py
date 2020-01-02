@@ -62,6 +62,8 @@ def main(student):
 if __name__ == '__main__':
     # j = githubAPI(query, variables)
     # print(parse_dates(j))
+    print("Days since last commit:")
+    print("")
     for s in students:
         try:
             print("{} : {}".format(s, int(main(students[s]))))
