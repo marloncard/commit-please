@@ -1,0 +1,8 @@
+{
+    "name": "please-commit-bot",
+    "version": "0.1.0",
+    "description": "A stalky stalky github bot",
+    "main": "bot.js",
+    "author": "Marlon Card",
+    "dependencies": {}
+    }

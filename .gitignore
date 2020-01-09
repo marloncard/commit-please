@@ -1,4 +1,5 @@
-config.py
 __pycache__
 *.pyc
-*.json
+
+config.py
+repos.json
